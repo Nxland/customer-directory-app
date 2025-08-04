@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  padding: 8px 12px;
+  width: 200px;
+}
+
+.icon {
+  color: #666;
+  margin-right: 8px;
+}
+
+.input {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: #333;
+  font-size: 14px;
+  width: 100%;
+}

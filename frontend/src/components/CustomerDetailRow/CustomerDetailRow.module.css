@@ -1,0 +1,26 @@
+.row {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 0;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .label {
+    font-size: 14px;
+    color: #555;
+    flex: 1;
+    max-width: 160px;
+  }
+  
+  .value {
+    font-size: 14px;
+    color: #333;
+    flex: 2;
+    text-align: left;
+    word-break: break-word;
+  }
+  
+  .row:last-child {
+    border-bottom: none;
+  }
+  
